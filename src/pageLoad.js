@@ -3,6 +3,8 @@ import steakImg from "./steak.jpg";
 export default function pageLoad() {
   const div = document.getElementById("content");
   div.innerHTML = "";
+  let divText = document.createElement("div");
+  divText.innerHTML = "<h1>Welcome to Colton's Steak House!</h1>";
   // let img = document.createElement("img");
 
   let mySteakImg = new Image();
@@ -19,6 +21,7 @@ export default function pageLoad() {
   let text = document.createTextNode("this is some text for the paragraph");
 
   p.appendChild(text);
+  div.appendChild(divText);
   div.appendChild(mySteakImg);
 
   // div.appendChild(img);s

@@ -1,6 +1,7 @@
 import aboutPage from "./about";
 import menuPage from "./menu";
 import pageLoad from "./pageLoad";
+import "./style.css";
 
 // Add the image to our existing div.
 pageLoad();
